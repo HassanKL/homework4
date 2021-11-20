@@ -1,0 +1,23 @@
+.container {
+  height: 800px;
+
+  background-image: url(../images/city.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: xx-large;
+    }
+  }
+}
